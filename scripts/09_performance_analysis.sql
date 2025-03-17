@@ -22,9 +22,9 @@ to both its average sales performance and the previous year's sales
 WITH yearly_product_sales AS
 (
 	SELECT
-  	YEAR(s.order_date) AS order_year,
-  	p.product_name,
-  	SUM(s.sales_amount) AS current_sales
+		YEAR(s.order_date) AS order_year,
+		p.product_name,
+		SUM(s.sales_amount) AS current_sales
 	FROM gold.fact_sales s
 	LEFT JOIN gold.dim_products p
 		ON s.product_key = p.product_key
