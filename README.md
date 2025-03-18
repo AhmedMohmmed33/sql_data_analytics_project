@@ -19,12 +19,11 @@ The diagram below visually represents the overall structure of the data analysis
 ## 📂 Repository Structure
 
 📁 sql-data-analytics-project/
-│
-├── 📂 datasets/                   # Contains raw datasets for analysis
-├── 📂 docs/                       # Documentation and architecture diagrams
-│   ├── 📄 Overview_Diagram.png
-├── 📂 scripts/                    # SQL scripts for various analyses
-│   ├── 📄 00_init_database.sql    
+├── 📁 datasets/                 # Contains raw datasets for analysis
+├── 📁 docs/                     # Documentation and architecture diagrams
+│   └── 📄 Overview_Diagram.png
+├── 📁 scripts/                  # SQL scripts for various analyses
+│   ├── 📄 00_init_database.sql
 │   ├── 📄 01_database_exploration.sql
 │   ├── 📄 02_dimensions_exploration.sql
 │   ├── 📄 03_date_range_exploration.sql
@@ -37,9 +36,9 @@ The diagram below visually represents the overall structure of the data analysis
 │   ├── 📄 10_data_segmentation.sql
 │   ├── 📄 11_part_to_whole_analysis.sql
 │   ├── 📄 12_report_customers.sql
-│   └── 📄 13_report_products.sql
-├── 📄 LICENSE                     # Project license information
-└── 📄 README.md                   # Project overview and instructions
+│   ├── 📄 13_report_products.sql
+├── 📄 LICENSE                    # Project license information
+└── 📄 README.md                  # Project overview and instructions
 
 ---
 
