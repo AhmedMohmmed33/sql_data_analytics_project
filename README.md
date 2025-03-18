@@ -17,7 +17,7 @@ The diagram below visually represents the overall structure of the data analysis
 ---
 
 ## 📂 Repository Structure
-
+```
 📁 sql-data-analytics-project/
 ├── 📁 datasets/                 # Contains raw datasets for analysis
 ├── 📁 docs/                     # Documentation and architecture diagrams
@@ -39,6 +39,7 @@ The diagram below visually represents the overall structure of the data analysis
 │   ├── 📄 13_report_products.sql
 ├── 📄 LICENSE                    # Project license information
 └── 📄 README.md                  # Project overview and instructions
+```
 
 ---
 
