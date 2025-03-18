@@ -12,6 +12,8 @@ The diagram below visually represents the overall structure of the data analysis
 
 **Advanced Analytics**: Involves performance analysis, segmentation, change-over-time trends, cumulative analysis, part-to-whole analysis, and reporting.
 
+docs/Overview_Diagram.png
+
 ---
 
 ## 📂 Repository Structure
