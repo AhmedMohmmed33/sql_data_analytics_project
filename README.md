@@ -12,7 +12,6 @@ The diagram below visually represents the overall structure of the data analysis
 
 **Advanced Analytics**: Involves performance analysis, segmentation, change-over-time trends, cumulative analysis, part-to-whole analysis, and reporting.
 
-
 ---
 
 ## 📂 Repository Structure
@@ -21,8 +20,9 @@ The diagram below visually represents the overall structure of the data analysis
 │
 ├── 📂 datasets/                   # Contains raw datasets for analysis
 ├── 📂 docs/                       # Documentation and architecture diagrams
+│   ├── 📄 Overview_Diagram.png
 ├── 📂 scripts/                    # SQL scripts for various analyses
-│   ├── 📄 00_init_database.sql     # Initial database setup
+│   ├── 📄 00_init_database.sql    
 │   ├── 📄 01_database_exploration.sql
 │   ├── 📄 02_dimensions_exploration.sql
 │   ├── 📄 03_date_range_exploration.sql
@@ -48,7 +48,3 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ## 🌟 About Me
 Hi there! I'm **Ahmed Mohamed Elsayed**. I'm a passionate data analyst and ai engineer with a strong research interest, eager to leverage my combined AI and data analysis knowledge to solve problems and extract meaningful insights. My excellent writing skills allow me to communicate complex data findings to various audiences.
-
-Feel free to connect with me on the following:
-**[Linkedin Account]**: ***(www.linkedin.com/in/ahmed-mohammed-112637344)***
-**[Gmail]**: ***(ahmedelsayed6542404@gmail.com)***
