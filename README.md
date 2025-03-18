@@ -51,5 +51,4 @@ Hi there! I'm **Ahmed Mohamed Elsayed**. I'm a passionate data analyst and ai en
 
 Feel free to connect with me on the following:
 **[Linkedin Account]**: ***(www.linkedin.com/in/ahmed-mohammed-112637344)***
-
 **[Gmail]**: ***(ahmedelsayed6542404@gmail.com)***
