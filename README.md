@@ -12,18 +12,24 @@ The diagram below visually represents the overall structure of the data analysis
 
 **Advanced Analytics**: Involves performance analysis, segmentation, change-over-time trends, cumulative analysis, part-to-whole analysis, and reporting.
 
-docs/Overview_Diagram.png
+![Overview Diagram](docs/Overview_Diagram.png)
 
 ---
 
 ## 📂 Repository Structure
 
 📁 sql-data-analytics-project/
+
 │
+
 ├── 📂 datasets/                   # Contains raw datasets for analysis
+
 ├── 📂 docs/                       # Documentation and architecture diagrams
+
 │   ├── 📄 Overview_Diagram.png
+
 ├── 📂 scripts/                    # SQL scripts for various analyses
+
 │   ├── 📄 00_init_database.sql    
 │   ├── 📄 01_database_exploration.sql
 │   ├── 📄 02_dimensions_exploration.sql
