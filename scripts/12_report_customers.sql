@@ -21,7 +21,15 @@ Highlights:
 ===============================================================================
 */
 
+-- =============================================================================
+-- Create Report: gold.report_customers
+-- =============================================================================
+IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
+    DROP VIEW gold.report_customers;
+GO
+
 CREATE VIEW gold.report_customers AS
+	
 WITH base_query AS
 (	
 	/*---------------------------------------------------------
@@ -72,14 +80,14 @@ SELECT
 	customer_name,
 	age,
 	CASE WHEN age < 20 THEN 'Below 20'
-		 WHEN age BETWEEN 20 AND 29 THEN '20-29'
-		 WHEN age BETWEEN 30 AND 39 THEN '30-39'
-		 WHEN age BETWEEN 40 AND 49 THEN '40-49'
-		 ELSE '50 and Above'
+	     WHEN age BETWEEN 20 AND 29 THEN '20-29'
+	     WHEN age BETWEEN 30 AND 39 THEN '30-39'
+	     WHEN age BETWEEN 40 AND 49 THEN '40-49'
+	     ELSE '50 and Above'
 	END AS age_group,
 	CASE WHEN lifespan >= 12 and total_sales > 5000 THEN 'VIP'
-		 WHEN lifespan >= 12 and total_sales <= 5000 THEN 'Regular'
-		 ELSE 'New'
+	     WHEN lifespan >= 12 and total_sales <= 5000 THEN 'Regular'
+	     ELSE 'New'
 	END AS customer_segment,
 	last_order,
 	DATEDIFF(month, last_order, GETDATE()) AS recency,
@@ -90,11 +98,11 @@ SELECT
 	lifespan,
 	-- Compute average order value (AVO)
 	CASE WHEN total_sales = 0 THEN 0
-		 ELSE total_sales / total_orders
+	     ELSE total_sales / total_orders
 	END AS avg_order_value,
 	-- Compute average monthly spend
 	CASE WHEN lifespan = 0 THEN total_sales
-		 ELSE total_sales / lifespan
+	     ELSE total_sales / lifespan
 	END AS avg_monthly_spending
 FROM Customer_Aggregation;
 
