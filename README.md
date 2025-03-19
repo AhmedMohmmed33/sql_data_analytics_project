@@ -33,8 +33,8 @@ The diagram below visually represents the overall structure of the data analysis
 │   ├── 📄 07_change_over_time_analysis.sql
 │   ├── 📄 08_cumulative_analysis.sql
 │   ├── 📄 09_performance_analysis.sql
-│   ├── 📄 10_data_segmentation.sql
-│   ├── 📄 11_part_to_whole_analysis.sql
+│   ├── 📄 10_part_to_whole_analysis.sql
+│   ├── 📄 11_data_segmentation.sql
 │   ├── 📄 12_report_customers.sql
 │   ├── 📄 13_report_products.sql
 ├── 📄 LICENSE                    # Project license information
